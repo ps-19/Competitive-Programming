@@ -1,3 +1,4 @@
+```
 // Basics of starting a server using nodeJS
 
 
@@ -81,3 +82,6 @@ app.delete('/', (req,res)=>{
 app.listen(PORT,()=>{
     console.log('Server is running on '+PORT);
 })
+
+
+```
