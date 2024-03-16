@@ -7,17 +7,14 @@ void LPS(string txt,vector<int> &lps){
             len++;
             lps[i] = len;
             i++;
-            continue;
         }
         else{                   
             if(len==0){         
                 lps[i] = 0;
                 i++;
-                continue;
             }
             else{              
                 len = lps[len-1];
-                continue;
             }
         }
     }
@@ -30,3 +27,5 @@ int main(){
   LPS(pattern,lps);
   return 0;
 }
+
+
