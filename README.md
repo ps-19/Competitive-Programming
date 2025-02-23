@@ -17,7 +17,7 @@ app.use(express.static(publicDirectoryPath));
 
 const PORT = 3000;
 
-const DB="mongodb+srv://admin:admin@cluster0.93ma7dp.mongodb.net/demos?retryWrites=true&w=majority";
+const DB="mongodb+srv://";
 
 
 const userSchema = new mongoose.Schema({
